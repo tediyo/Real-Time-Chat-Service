@@ -139,7 +139,7 @@ const App = () => {
 
       <div className="chat-messages">
         {isLoading ? (
-          <div className="loading">Loading messages...</div>
+          <div className="loading">Loading messages....</div>
         ) : (
           messages.map((message, index) => (
             <div
